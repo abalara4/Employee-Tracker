@@ -1,2 +1,31 @@
+# Node.js dependencies
 node_modules/
-.DS_Store/
+
+# Build output
+dist/
+build/
+
+# TypeScript compiled files
+*.js
+*.js.map
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
