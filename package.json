@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "ts-node app.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,15 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "inquirer": "^12.1.0",
-    "pg": "^8.13.1"
+    "pg": "^8.13.1",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.9.0",
+    "@types/pg": "^8.11.10",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
   }
 }
